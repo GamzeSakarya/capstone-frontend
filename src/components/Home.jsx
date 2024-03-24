@@ -3,24 +3,23 @@ import cat1 from "../assets/cat1.jpeg";
 import cat2 from "../assets/cat2.jpeg";
 import cat3 from "../assets/cat3.jpeg";
 import cat4 from "../assets/cat4.jpeg";
+import vet from "../assets/vet.jpeg";
 
 function Home() {
   return (
     <div>
       <div className="hero-section">
         <div className="hero-section-div">
-          <h5>Lorem, ipsum dolor.</h5>
-          <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, animi.</h1>
+          <h1>Welcome to our veterinary clinic</h1>
           <p className="info">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis sunt expedita eius iste praesentium quos debitis velit rerum doloremque laboriosam vel numquam consequatur, veritatis maxime officia labore placeat voluptatibus iusto, eaque suscipit sit quaerat consectetur provident deleniti. Sit excepturi beatae illo aliquam. Nisi soluta, odit doloremque dicta veniam enim quia?
-          </p>
+          Whether your pet needs routine vaccinations, regular check-ups, surgical procedures, or dental care, you can trust us to deliver comprehensive and personalized care tailored to their specific needs. We understand the importance of your pet's well-being, and we strive to create a warm and welcoming environment where both you and your furry companions feel comfortable.          </p>
           <div id="redirectBtn">
-            <p className="alt-info">Button</p>
+            <p className="alt-info">FOR MORE</p>
           </div>
         </div>
-        {/* <div className="hero-section-img"> 
-          <img src={cat1} />
-        </div>  */}
+       <div className="hero-section-img"> 
+          <img src={vet} />
+        </div>  
       </div>
 
       {/* <div className="pet-connection">
@@ -75,7 +74,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>  */}
       <footer>
         <div className="top-footer">
           <p>
@@ -90,8 +89,8 @@ function Home() {
           <div className="left-side">
             <h3>Contact</h3>
 
-            <a href="mailto:example@example.com">Email</a>
-            <a href="tel:+123456789">Phone</a>
+            <a href="gamze@gmail.com">Email</a>
+            <a href="tel:+05050505055">Phone</a>
             <a href="https://github.com/GamzeSakarya">GitHub</a>
             <a href="https://www.linkedin.com/in/gamze-sakarya-68a2b5269/">LinkedIn</a>
           </div>

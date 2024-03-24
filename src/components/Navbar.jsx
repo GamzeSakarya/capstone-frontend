@@ -48,7 +48,7 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: "#5252ß" }}>
+    <AppBar position="static" sx={{ backgroundColor: "#7469B6" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
@@ -152,7 +152,7 @@ function Navbar() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip>
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <MenuOpenIcon sx={{ fontSize: "2rem", color: "white" }} />
+                <MenuOpenIcon sx={{ fontSize: "2.5rem", color: "white" }} />
               </IconButton>
             </Tooltip>
 

@@ -26,7 +26,7 @@
 }
 
 .animal-table th {
-  background-color: #124116;
+  background-color: #E1AFD1;
 }
 
 .animal-icon,
@@ -76,7 +76,7 @@
 .animal-newanimal button,
 .animal-updateanimal button {
   padding: 8px 16px;
-  background-color: orange;
+  background-color: #E1AFD1;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -85,7 +85,7 @@
 
 .animal-newanimal button:hover,
 .animal-updateanimal button:hover {
-  background-color: #108a53;
+  background-color: #E1AFD1;
 }
 
 .animal-forms {
@@ -121,7 +121,7 @@
 .search-area {
   display: flex;
   align-items: center;
-  border: 2px groove #39673a;
+  border: 2px groove #E1AFD1;
   width: 570px;
   border-radius: 5px;
   margin-left: 25px;
@@ -138,7 +138,7 @@
 
 .animal-reset {
   padding: 8px 10px;
-  background-color: orange;
+  background-color: #E1AFD1;
   color: #fff;
   border: none;
   border-radius: 5px;

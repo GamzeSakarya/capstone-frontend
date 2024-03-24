@@ -26,7 +26,7 @@
 }
 
 .appointment-table th {
-  background-color: orange;
+  background-color: #E1AFD1;
 }
 
 .appointment-icon,
@@ -76,7 +76,7 @@
 .appointment-newappointment button,
 .appointment-updateappointment button {
   padding: 8px 16px;
-  background-color: orange;
+  background-color: #E1AFD1;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -85,7 +85,7 @@
 
 .appointment-newappointment button:hover,
 .appointment-updateappointment button:hover {
-  background-color: orange;
+  background-color: #E1AFD1;
 }
 
 .appointment-forms {
@@ -125,21 +125,22 @@
 }
 
 .search-btn {
-  /* padding: 8px 16px; */
-  background-color: orange;
+  padding: 8px 16px; 
+  background-color: #E1AFD1;
+  color: #E1AFD1;
   color: #fff;
-  width: 100%;
-  /* border: none; */
-  /* border-radius: 5px; */
-  /* cursor: pointer; */
-  /* margin-right: 105px; */
-  /* margin-top: 16px; */
-  /* margin-left: 20px; */
+  width: 50%;
+ border: none; 
+   border-radius: 5px; 
+   cursor: pointer; 
+   margin-right: 105px; 
+   margin-top: 16px; 
+  margin-left: 20px; 
 }
 
 .reset-btn-appointment {
   padding: 8px 10px;
-  background-color: orange;
+  background-color:#E1AFD1;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -147,7 +148,7 @@
   margin-right: 150px;
   margin-top: 15px;
   margin-left: 0px;
-  width: 100%;
+  width: 50%;
 }
 
 .appointment-search-title-date {

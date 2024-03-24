@@ -26,7 +26,7 @@
 }
 
 .doctor-table th {
-  background-color: #124116;
+  background-color: #E1AFD1;
 }
 
 .doctor-icon,
@@ -76,7 +76,7 @@
 .doctor-newdoctor button,
 .doctor-updatedoctor button {
   padding: 8px 16px;
-  background-color: orange;
+  background-color: #E1AFD1;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -85,7 +85,7 @@
 
 .doctor-newdoctor button:hover,
 .doctor-updatedoctor button:hover {
-  background-color: #108a53;
+  background-color: #E1AFD1;
 }
 
 .doctor-forms {
@@ -131,7 +131,7 @@
 .availableDate-newavailableDate button,
 .availableDate-updateavailableDate button {
   padding: 8px 16px;
-  background-color: orange;
+  background-color: #E1AFD1;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -140,7 +140,7 @@
 
 .availableDate-newavailableDate button:hover,
 .availableDate-updateavailableDate button:hover {
-  background-color: #108a53;
+  background-color: #E1AFD1;
 }
 
 .availableDate-forms {
@@ -180,7 +180,7 @@
 }
 
 .search-area-doctor {
-  border: 2px groove #39673a;
+  border: 2px groove #E1AFD1;
   width: 250px;
   border-radius: 5px;
   margin-left: 25px;
@@ -189,7 +189,7 @@
 
 .doctor-reset {
   padding: 8px 10px;
-  background-color: orange;
+  background-color: #E1AFD1;
   color: #fff;
   border: none;
   border-radius: 5px;
