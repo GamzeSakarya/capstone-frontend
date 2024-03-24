@@ -105,7 +105,7 @@ function Navbar() {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {pages.map((page) => (
+              {pages?.map((page) => (
                 <MenuItem key={page.name} onClick={handleCloseNavMenu}>
                   <Link to={page.path}>{page.name}</Link>
                 </MenuItem>
@@ -138,7 +138,7 @@ function Navbar() {
             </Typography>
           </Link>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
+            {pages?.map((page) => (
               <Button
                 key={page.name}
                 onClick={handleCloseNavMenu}
@@ -172,7 +172,7 @@ function Navbar() {
               open={Boolean(anchorElUser)}
               onClose={handleCloseUserMenu}
             >
-              {settings.map((setting) => (
+              {settings?.map((setting) => (
                 <MenuItem key={setting.name} onClick={handleCloseUserMenu}>
                   <Link to={setting.path} textalign="center">
                     {setting.name}

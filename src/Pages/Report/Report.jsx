@@ -161,7 +161,7 @@ function Report() {
               </tr>
             </thead>
             <tbody>
-              {report.map((report) => (
+              {report?.map((report) => (
                 <tr key={report.id}>
                   <td>{report.title}</td>
                   <td>{report.diagnosis}</td>
@@ -225,7 +225,7 @@ function Report() {
                 <option value="" disabled>
                   Select an Appointment
                 </option>
-                {appointment.map((appointment) => (
+                {appointment?.map((appointment) => (
                   <option key={appointment.id} value={appointment.id}>
                     {appointment.date} - {appointment.doctorName} -{" "}
                     {appointment.animalName}
@@ -278,7 +278,7 @@ function Report() {
                 <option value="" disabled>
                   Select an Appointment
                 </option>
-                {appointment.map((appointment) => (
+                {appointment?.map((appointment) => (
                   <option key={appointment.id} value={appointment.id}>
                     {appointment.date} - {appointment.doctorName} -{" "}
                     {appointment.animalName}
