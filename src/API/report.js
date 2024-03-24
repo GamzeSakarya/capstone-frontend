@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = "http://localhost:8080";
+const baseUrl = "https://capstone-backend-vwb2.onrender.com";
 
 export const getVaccines = async () => {
   const res = await axios.get(
