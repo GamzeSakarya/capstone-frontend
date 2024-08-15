@@ -1,7 +1,4 @@
-## Veterinary App
-https://capstone-frontend-teal.vercel.app/ 
-
-![Ekran Görüntüsü (97)](https://github.com/GamzeSakarya/capstone-frontend/assets/126356427/bffc06c7-e568-439d-b1b7-2f95675584b0)
+#Veterinary app
 
 ![Ekran Görüntüsü (98)](https://github.com/GamzeSakarya/capstone-frontend/assets/126356427/d083c12a-f334-4960-a9e4-7d5ff3210b3f)
 
